@@ -37,6 +37,7 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'unicorn'
+  gem 'sqlite3', '1.3.5'
 end
 group :test do
   gem 'capybara'
